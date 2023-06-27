@@ -1,0 +1,42 @@
+{
+  "name": "desafio-07-proyecto",
+  "version": "1.0.0",
+  "description": "Desafío 07 - backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js --ignore 'db/'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlos7979/desafio-07.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Carlos Corredor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlos7979/desafio-07/issues"
+  },
+  "homepage": "https://github.com/Carlos7979/desafio-07#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.2",
+    "mongoose-aggregate-paginate-v2": "^1.0.6",
+    "morgan": "^1.10.0",
+    "passport": "^0.6.0",
+    "passport-github2": "^0.1.12",
+    "passport-jwt": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

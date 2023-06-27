@@ -1,0 +1,9 @@
+<h2 id="greeting"></h2>
+{{#unless profile}}
+	<div><a href="/profile">Ir a perfil</a></div>
+{{/unless}}
+{{#unless products}}
+	<div><a id="a-products" href="/products">Ir a productos</a></div>
+{{/unless}}
+<div><a id="logout" href="/">Cerrar sesión</a></div>
+<script src="/static/js/nav.js"></script>

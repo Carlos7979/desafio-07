@@ -1,0 +1,157 @@
+ul {
+	list-style: none;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	width: fit-content;
+}
+
+.cards-container {
+	margin: 10px 0;
+}
+
+.card-container {
+	position: relative;
+	display: inline-block;
+}
+
+.card {
+	border: 1px solid black;
+	width: fit-content;
+	max-width: 220px;
+	margin: 5px 0;
+	padding-right: 10px;
+	border-radius: 5px;
+	padding-top: 24px;
+	background-image: url('loading.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.detail {
+	max-width: none;
+	border: none;
+}
+
+.card:hover {
+	cursor: pointer;
+	background-color: aliceblue;
+	border-color: dimgray;
+}
+
+.detail:hover {
+	cursor: default;
+}
+
+.card-img {
+	max-height: 100px;
+	width: auto;
+	min-height: 100px;
+	min-width: 60%;
+	border: 1px solid brown;
+	border-radius: 5px;
+}
+
+.cart-total {
+	border: dashed gray;
+	padding: auto 10px;
+	width: fit-content;
+}
+
+.quantity {
+	position: absolute;
+	left: 0;
+	padding: 10px;
+}
+
+.cart-cursor {
+	cursor: pointer;
+}
+
+.cart-icon {
+	position: absolute;
+	right: 0;
+	padding: 10px;
+	top: 5px;
+}
+
+.cart-products {
+	border-radius: 5px;
+	top: 5px;
+	cursor: default;
+}
+
+.cart-button:active {
+	top: 1px;
+	right: -1px;
+}
+
+.cart-button {
+	position: relative;
+	border-radius: 5px;
+}
+
+.cart-button:active {
+	top: 1px;
+	right: -1px;
+}
+
+.cart-button:hover {
+	cursor: pointer;
+	background-color: whitesmoke;
+	border-radius: 5px;
+}
+
+.cart-button-disable {
+	color: grey;
+}
+
+.card-detail {
+	position: relative;
+	border: 1px solid black;
+	min-width: fit-content;
+	/* width: 50%; */
+	/* max-width: 220px; */
+	display: inline-block;
+	margin: 5px 0;
+	padding-right: 10px;
+	border-radius: 5px;
+}
+
+.card-detail-img {
+	max-height: 300px;
+	width: auto;
+	min-height: 300px;
+	min-width: 60%;
+	border: 1px solid brown;
+	border-radius: 5px;
+}
+
+.real-time-products {
+	margin: 5px;
+}
+
+.card-description {
+	width: 200px;
+}
+
+.delete-card {
+	border: solid 1px black;
+	border-radius: 3px;
+	padding: 3px;
+	margin: 3px auto;
+	text-align: center;
+	width: 50%;
+	font-weight: 700;
+	background-color: rgb(187, 102, 102);
+	position: relative;
+	user-select: none;
+}
+
+.delete-card:hover {
+	cursor: pointer;
+}
+
+.delete-card:active {
+	top: 1px;
+	left: 1px;
+}
